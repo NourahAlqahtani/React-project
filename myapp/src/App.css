@@ -1,0 +1,122 @@
+
+
+.Nav{
+  width: 100%;
+  line-height: 75px;
+  padding: 0px 100px;
+  display: flex;
+  justify-content: space-around; 
+  background-color: rgba(131, 116, 183, 0.358);
+  padding: 50px;
+  
+  
+}
+
+
+.Nav .logo p{
+  font-size: 40px;
+  font-weight: bold;
+  float: left;
+  color: #2b1a5a;
+  text-transform: uppercase;
+  letter-spacing: 1.5px;
+  cursor: pointer;
+  
+}
+
+.Nav .logo p:hover{
+  color: #747990;
+}
+
+.Nav ul{
+  float: right;
+  
+}
+
+.Nav li{
+  display: inline-block;
+  list-style: none;
+  font-size: 80px;
+}
+
+.Nav li a{
+  font-size: 30px;
+  text-transform: uppercase;
+  padding: 0px 30px;
+  color: #2b1a5a;
+  text-decoration: none;
+  
+}
+
+.Nav li a:hover{
+  color: #747990;
+  transition: all 0.4s ease 0s;
+}
+
+.card{
+  border-radius: 10%;
+  padding-inline: 50px;
+}
+.card img{
+  border-radius: 10%;
+  
+}
+.card p{
+  text-decoration:overline;
+  text-align: end;
+  font-size: 25px ;
+  font-weight: bold;
+  color: #382d54;
+  font-family: ui ;
+
+}
+
+
+
+/* corss   */
+
+.container{
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+ 
+}
+img{
+  width: 100%;
+  margin: 10%;
+}
+
+
+
+
+.foteer{
+  background-color:  rgba(131, 116, 183, 0.358);
+  padding: 50px;
+}
+.foteer p{
+  text-align: center;
+  font-size: 30px;
+  
+}
+.foteer ul {
+  
+  justify-content: left;
+  align-content: center;
+  display: flex;
+  
+  
+}
+.foteer li{
+  margin: 10px;
+  list-style: none;
+}
+
+.foteer li a{
+  color: #2b1a5a;
+  text-decoration: none;
+  font-size: 60px;
+  transition: all ease-in-out 250ms;
+}
+.foteer li a:hover{
+  color: rgba(131, 116, 183, 0.358);
+}
+
